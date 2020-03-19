@@ -58,9 +58,6 @@ ino <Down> <Nop>
 ino <Left> <Nop>
 ino <Right> <Nop>
 
-"Map nerd tree toggle
-map <C-n> :NERDTreeToggle<CR>
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Powerline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -149,6 +146,4 @@ set guioptions-=L  "remove left-hand scroll bar
 " => Fixes mouse issues using Alacritty terminal
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set ttymouse=sgr
-
-
 
