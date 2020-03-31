@@ -23,6 +23,7 @@ Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'vimwiki/vimwiki'                            " Vim wiki
 Plugin 'ap/vim-css-color'                           " Color previews for CSS
 Plugin 'tpope/vim-surround'                         " Change surrounding marks
+Plugin 'HenryNewcomer/vim-theme-papaya'
 "Plugin 'klen/python-mode'                          " Python Mode
 
 call vundle#end()		" required, all plugins must appear before this line.
@@ -111,7 +112,10 @@ let NERDTreeMinimalUI = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-colo delek
+if (has("termguicolors"))
+    set termguicolors
+endif
+colo papaya
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
