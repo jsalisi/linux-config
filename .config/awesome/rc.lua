@@ -55,7 +55,7 @@ beautiful.notification_font = "Noto Sans Bold 12"
 browser = "exo-open --launch WebBrowser" or "firefox"
 filemanager = "exo-open --launch FileManager" or "thunar"
 gui_editor = "mousepad"
-terminal = "alacritty" or os.getenv("TERMINAL") -- or "lxterminal"
+terminal = os.getenv("TERMINAL") or "lxterminal"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
