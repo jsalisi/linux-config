@@ -7,4 +7,4 @@
 !.config/rofi
 !.zshrc
 !.config/lxterminal/lxterminal.conf
-!.config/install_zsh_plugins.sh
+!install_zsh_plugins.sh
